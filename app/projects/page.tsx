@@ -2,10 +2,8 @@ import React from "react";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import Image from "next/image";
-import Particles from "../components/particles";
 
-export default async function ProjectsPage() {
-
+export default function ProjectsPage() {
   return (
     <div className="relative pb-16">
       <Navigation />
@@ -20,130 +18,156 @@ export default async function ProjectsPage() {
         </div>
         <div className="w-full h-px bg-zinc-600" />
         
-        <div className=" grid grid-cols-1 gap-16 mx-auto lg:grid-cols-2 align-center">
+        {/* First grid section */}
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16 mx-auto">
           <Card>
-              <Image
-                src="/604.png"
-                width={600}
-                height={600}
-               alt=""
-              />
+            <Image
+              src="/604.png"
+              layout="responsive"
+              width={600}
+              height={600}
+              alt="Projeto 1"
+              className="object-cover"
+            />
           </Card>
           <Card>
-              <Image
-                src="/castraçã.png"
-                width={600}
-                height={600}
-               alt=""
-              />
+            <Image
+              src="/castraçã.png"
+              layout="responsive"
+              width={600}
+              height={600}
+              alt="Projeto 2"
+              className="object-cover"
+            />
           </Card>
         </div>
-       
 
-        <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
-          <div className="grid grid-cols-1 gap-4">
-            <Card>
-              <Image
-                src="/Energia.png"
-                width={600}
-                height={600}
-               alt=""
-              />
-          </Card>
-          </div>
-          <div className="grid grid-cols-1 gap-4">
+        {/* Second grid section */}
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-3 lg:gap-16 mx-auto">
           <Card>
-              <Image
-                src="/sorvete.png"
-                width={600}
-                height={600}
-               alt=""
-              />
+            <Image
+              src="/Energia.png"
+              layout="responsive"
+              width={600}
+              height={600}
+              alt="Projeto 3"
+              className="object-cover"
+            />
           </Card>
-          </div>
-          <div className="grid grid-cols-1 gap-4">
           <Card>
-              <Image
-                src="/dia-dos-pais.png"
-                width={600}
-                height={600}
-               alt=""
-              />
+            <Image
+              src="/sorvete.png"
+              layout="responsive"
+              width={600}
+              height={600}
+              alt="Projeto 4"
+              className="object-cover"
+            />
           </Card>
-          </div>
+          <Card>
+            <Image
+              src="/dia-dos-pais.png"
+              layout="responsive"
+              width={600}
+              height={600}
+              alt="Projeto 5"
+              className="object-cover"
+            />
+          </Card>
         </div>
-        <div className="grid grid-cols-1 gap-16 mx-auto lg:grid-cols-2 align-center">
+
+        {/* Third grid section */}
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-2 lg:gap-16 mx-auto">
+          <Card>
+            <Image
+              src="/DIA-DAS-CRIANÇAS.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 6"
+              className="object-cover"
+            />
+          </Card>
+          <Card>
+            <Image
+              src="/acem.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 13"
+              className="object-cover"
+            />
+          </Card>
+        </div>
+
+        {/* Fourth grid section */}
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-3 lg:gap-16 mx-auto">
+          <Card>
+            <Image
+              src="/DIA-DA-MULHER.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 9"
+              className="object-cover"
+            />
+          </Card>
+          <Card>
+            <Image
+              src="/Natal.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 10"
+              className="object-cover"
+            />
+          </Card>
+          <Card>
+            <Image
+              src="/ROSA.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 11"
+              className="object-cover"
+            />
+          </Card>
+        </div>
+
+        {/* Fifth grid section */}
+        <div className="grid grid-cols-1 gap-8 md:gap-12 lg:grid-cols-3 lg:gap-16 mx-auto">
+          <Card>
+            <Image
+              src="/ANO-NOVO.png"
+              layout="responsive"
+              width={500}
+              height={500}
+              alt="Projeto 12"
+              className="object-cover"
+            />
+          </Card>
           <Card>
               <Image
-                src="/DIA-DAS-CRIANÇAS.png"
+                src="/lanche.png"
+                layout="responsive"
                 width={500}
                 height={500}
-                layout="responsive"
-                objectFit="cover"
-               alt=""
+                alt="Projeto 7"
+                className="object-cover"
               />
-          </Card>
-          <div className="grid grid-cols- gap-4">
-            <Card>
-                <Image
-                  src="/lanche.png"
-                  layout="fill"
-                  alt=""
-                />
             </Card>
             <Card>
-                <Image
-                  src="/azul.png"
-                  layout="fill"
-                  alt=""
-                />
-            </Card>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
-        <div className="grid grid-cols- gap-4">
-            <Card>
-                <Image
-                  src="/DIA-DA-MULHER.png"
-                  layout="fill"
-                  alt=""
-                />
-            </Card>
-            <Card>
-                <Image
-                  src="/Natal.png"
-                  layout="fill"
-                  alt=""
-                />
-            </Card>
-          </div>
-          <div className="grid grid-cols- gap-4">
-            <Card>
-                <Image
-                  src="/ROSA.png"
-                  layout="fill"
-                  alt=""
-                />
-            </Card>
-            <Card>
-                <Image
-                  src="/ANO-NOVO.png"
-                  layout="fill"
-                  alt=""
-                />
-            </Card>
-          </div>
-          <div className="grid grid-cols-1 gap-4">
-          <Card>
               <Image
-                src="/acem.png"
-                width={600}
-                height={600}
-               alt=""
+                src="/azul.png"
+                layout="responsive"
+                width={500}
+                height={500}
+                alt="Projeto 8"
+                className="object-cover"
               />
-          </Card>
-          </div>
+            </Card>
         </div>
+
         <div className="hidden w-full h-px md:block bg-zinc-600" />
       </div>
     </div>
