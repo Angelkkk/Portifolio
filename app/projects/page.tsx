@@ -18,11 +18,8 @@ export default async function ProjectsPage() {
             Alguns dos meus projetos pessoais...
           </p>
         </div>
-        <div className="scale-90  w-full h-px bg-zinc-600" />
-        <Particles
-          className="absolute inset-0 -z-50" 
-          quantity={1000}
-        />
+        <div className="w-full h-px bg-zinc-600" />
+        
         <div className=" grid grid-cols-1 gap-16 mx-auto lg:grid-cols-2 align-center">
           <Card>
               <Image
