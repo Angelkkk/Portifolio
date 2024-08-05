@@ -78,7 +78,7 @@ export default async function ProjectsPage() {
         <div className="grid grid-cols-1 gap-16 mx-auto lg:grid-cols-2 align-center">
           <Card>
               <Image
-                src="/diaDasCrianças.png"
+                src="/DiaDasCriancas.png"
                 width={500}
                 height={500}
                 layout="responsive"
