@@ -3,7 +3,7 @@ import { Phone, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-
+import Particles from "../components/particles";
 
 const socials = [
 	{
@@ -30,6 +30,10 @@ export default function Example() {
 	return (
 		<div className="bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
 			<Navigation />
+			<Particles
+				className="absolute inset-0 -z-50 animate-fade-in" 
+				quantity={2000}
+			/>
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (

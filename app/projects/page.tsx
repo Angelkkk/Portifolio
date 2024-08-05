@@ -3,6 +3,7 @@ import React from "react";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import Image from "next/image";
+import Particles from "../components/particles";
 
 export default async function ProjectsPage() {
 
@@ -19,6 +20,10 @@ export default async function ProjectsPage() {
           </p>
         </div>
         <div className="w-full h-px bg-zinc-600" />
+        <Particles
+        className="absolute inset-0 -z-50 animate-fade-in" 
+        quantity={2000}
+        />
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 align-center">
           <Card>
               <Image
