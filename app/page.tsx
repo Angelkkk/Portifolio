@@ -25,14 +25,16 @@ export default function Home() {
             ))}
           </ul>
         </nav>
-        <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-        <h1 className="py-3.5 px-0.5 z-10 text-2xl md:text-3xl text-transparent duration-1000 bg-[#E0E1DD] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
+        {/* Removendo a classe hidden para garantir que a linha esteja visível em dispositivos móveis */}
+        <div className="w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        <h1 className="py-3.5 px-0.5 z-10 text-7xl md:text-3xl text-transparent duration-1000 bg-[#E0E1DD] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
           Farsax
         </h1>
-        <h1 className="pb-8 px-0.5 z-10 text-lg md:text-xl text-transparent duration-1000 bg-[#778DA9] cursor-default animate-title font-display sm:text-4xl md:text-4xl whitespace-nowrap bg-clip-text">
+        <h1 className="pb-8 px-0.5 z-10 text-xl md:text-3xl text-transparent duration-1000 bg-[#778DA9] cursor-default animate-title font-display sm:text-4xl md:text-4xl whitespace-nowrap bg-clip-text">
           designer gráfico
         </h1>
-        <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        {/* Removendo a classe hidden para garantir que a linha esteja visível em dispositivos móveis */}
+        <div className="w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         <Image
           className="animate-fade-in py-0 px-0.5 z-10"
           src="/Logo.png"
