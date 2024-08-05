@@ -34,7 +34,7 @@ export default async function ProjectsPage() {
           </Card>
           <Card>
               <Image
-                src="/castração.png"
+                src="/castraçã.png"
                 width={600}
                 height={600}
                alt=""

@@ -688,6 +688,9 @@ video {
 .top-0 {
   top: 0px;
 }
+.-z-50 {
+  z-index: -50;
+}
 .z-0 {
   z-index: 0;
 }
@@ -715,6 +718,22 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -877,6 +896,9 @@ video {
 .cursor-default {
   cursor: default;
 }
+.resize {
+  resize: both;
+}
 .scroll-m-20 {
   scroll-margin: 5rem;
 }
@@ -888,6 +910,9 @@ video {
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-row-reverse {
   flex-direction: row-reverse;
@@ -912,6 +937,12 @@ video {
 }
 .gap-8 {
   gap: 2rem;
+}
+.gap-16 {
+  gap: 4rem;
+}
+.gap-32 {
+  gap: 8rem;
 }
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -1013,6 +1044,9 @@ video {
 }
 .bg-zinc-900\/0 {
   background-color: rgb(24 24 27 / 0);
+}
+.bg-transparent {
+  background-color: transparent;
 }
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
@@ -1117,6 +1151,18 @@ video {
 .py-\[0\.2rem\] {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -1407,6 +1453,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .lg\:gap-16 {
     gap: 4rem;
   }
@@ -1414,6 +1464,26 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:pb-48 {
