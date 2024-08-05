@@ -33,7 +33,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Image
         className="animate-fade-in py-0 px-0.5 z-10"
-        src="/logo.png"
+        src="../logo.png"
         width={400}
         height={400}
         alt="Picture of the author"
