@@ -75,7 +75,7 @@ export default async function ProjectsPage() {
         <div className="grid grid-cols-1 gap-16 mx-auto lg:grid-cols-2 align-center">
           <Card>
               <Image
-                src="/DiaDasCriancas.png"
+                src="/DIA-DAS-CRIANÇAS.png"
                 width={500}
                 height={500}
                 layout="responsive"
@@ -93,7 +93,7 @@ export default async function ProjectsPage() {
             </Card>
             <Card>
                 <Image
-                  src="/favicon.png"
+                  src="/azul.png"
                   layout="fill"
                   alt=""
                 />
@@ -104,14 +104,14 @@ export default async function ProjectsPage() {
         <div className="grid grid-cols- gap-4">
             <Card>
                 <Image
-                  src="/favicon.png"
+                  src="/DIA-DA-MULHER.png"
                   layout="fill"
                   alt=""
                 />
             </Card>
             <Card>
                 <Image
-                  src="/favicon.png"
+                  src="/Natal.png"
                   layout="fill"
                   alt=""
                 />
@@ -120,14 +120,14 @@ export default async function ProjectsPage() {
           <div className="grid grid-cols- gap-4">
             <Card>
                 <Image
-                  src="/favicon.png"
+                  src="/ROSA.png"
                   layout="fill"
                   alt=""
                 />
             </Card>
             <Card>
                 <Image
-                  src="/favicon.png"
+                  src="/ANO-NOVO.png"
                   layout="fill"
                   alt=""
                 />
