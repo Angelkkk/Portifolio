@@ -34,8 +34,8 @@ export default function Home() {
       <Image
         className="animate-fade-in py-0 px-0.5 z-10"
         src="/Logo.png"
-        width={250}
-        height={250}
+        width={300}
+        height={300}
         alt="Picture of the author"
       />
       <div className="my-16 text-justify animate-fade-in w-6/12">
