@@ -31,7 +31,7 @@ export default function Example() {
 		<div className="bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
 			<Navigation />
 			<Particles
-				className="absolute inset-0 -z-50 animate-fade-in" 
+				className="absolute inset-0 -z-50" 
 				quantity={2000}
 			/>
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
