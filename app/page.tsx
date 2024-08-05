@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="m-8 flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-20">
           {navigation.map((item) => (
