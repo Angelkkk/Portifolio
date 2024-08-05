@@ -10,6 +10,9 @@ module.exports = {
 
 	theme: {
 		extend: {
+			scale: {
+				'90': '0.9',
+			  },
 			typography: {
 				DEFAULT: {
 					css: {

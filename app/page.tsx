@@ -11,6 +11,7 @@ const navigation = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
+      <div className="scale-90 flex flex-col items-center justify-center">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-20">
           {navigation.map((item) => (
@@ -48,6 +49,7 @@ export default function Home() {
           Olá! Me chamo Israel Felipe Ribeiro do Prado, criador do perfil Farsax e tenho 20 anos. Comecei minha jornada no design 2 anos atrás e desde então venho trabalhando nisso, desenvolvendo minhas habilidades e criando projetos que vinculam criatividade e profissionalismo.
           Acredito que o design é uma poderosa forma de comunicação. sinta-se à vontade para explorar meu portfólio e entrar em contato.
         </p>
+      </div>
       </div>
     </div>
   );

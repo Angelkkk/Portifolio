@@ -18,7 +18,7 @@ export default async function ProjectsPage() {
             Alguns dos meus projetos pessoais...
           </p>
         </div>
-        <div className="w-full h-px bg-zinc-600" />
+        <div className="scale-90  w-full h-px bg-zinc-600" />
         <Particles
           className="absolute inset-0 -z-50" 
           quantity={1000}
