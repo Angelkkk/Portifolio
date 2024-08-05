@@ -11,7 +11,7 @@ const navigation = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
-      <div className="scale-90 flex flex-col items-center justify-center">
+      <div className="scale-85 flex flex-col items-center justify-center">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-20">
           {navigation.map((item) => (
@@ -26,10 +26,6 @@ export default function Home() {
         </ul>
       </nav>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <Particles
-        className="absolute inset-0 -z-50 animate-fade-in" 
-        quantity={1000}
-      />
       <h1 className="py-3.5 px-0.5 z-10 text-3xl text-transparent duration-1000 bg-[#E0E1DD] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
         Farsax
       </h1>

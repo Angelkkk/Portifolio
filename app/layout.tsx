@@ -4,6 +4,7 @@ import LocalFont from "next/font/local";
 import { Analytics } from "./components/analytics";
 import { icons } from "lucide-react";
 import React from "react";
+import Particles from "./components/particles";
 
 export const metadata = {
   title: 'Portifólio Israel',
@@ -35,6 +36,10 @@ export default function RootLayout({
       <body
         className={`bg-black min-h-screen ${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`}
       >
+      <Particles
+        className="absolute inset-0 -z-50 animate-fade-in" 
+        quantity={1000}
+      />
         {children}
       </body>
     </html>

@@ -30,10 +30,6 @@ export default function Example() {
 	return (
 		<div className="bg-gradient-to-tl from-[#0D1B2A] via-[#1B263B]/45 to-[#0D1B2A]">
 			<Navigation />
-			<Particles
-				className="absolute inset-0 -z-50" 
-				quantity={1000}
-			/>
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (

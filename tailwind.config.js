@@ -12,6 +12,7 @@ module.exports = {
 		extend: {
 			scale: {
 				'90': '0.9',
+				'85': '0.85',
 			  },
 			typography: {
 				DEFAULT: {

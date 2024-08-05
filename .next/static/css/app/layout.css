@@ -770,9 +770,6 @@ video {
 .h-screen {
   height: 100vh;
 }
-.h-full {
-  height: 100%;
-}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -800,15 +797,14 @@ video {
 .max-w-7xl {
   max-width: 80rem;
 }
-.origin-top-left {
-  transform-origin: top left;
-}
-.origin-center {
-  transform-origin: center;
-}
 .scale-90 {
   --tw-scale-x: 0.9;
   --tw-scale-y: 0.9;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.scale-85 {
+  --tw-scale-x: 0.85;
+  --tw-scale-y: 0.85;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 @keyframes fade-in {
@@ -914,9 +910,6 @@ video {
 }
 .flex-col {
   flex-direction: column;
-}
-.content-center {
-  align-content: center;
 }
 .items-center {
   align-items: center;
