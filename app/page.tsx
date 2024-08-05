@@ -33,14 +33,15 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Image
         className="animate-fade-in py-0 px-0.5 z-10"
-        src="/logo.png"
+        src="/Logo.png"
         width={400}
         height={400}
         alt="Picture of the author"
       />
       <div className="my-16 text-justify animate-fade-in w-6/12">
         <p className="text-xl text-zinc-400">
-          CUZINHO
+          Olá! Me chamo Israel Felipe Ribeiro do Prado, criador do perfil Farsax e tenho 20 anos. Comecei minha jornada no design 2 anos atrás e desde então venho trabalhando nisso, desenvolvendo minhas habilidades e criando projetos que vinculam criatividade e profissionalismo.
+          Acredito que o design é uma poderosa forma de comunicação. sinta-se à vontade para explorar meu portfólio e entrar em contato.
         </p>
       </div>
     </div>
