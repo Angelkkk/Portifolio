@@ -16,7 +16,7 @@ export default function Home() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-2xl duration-500 text-[#778DA9]/40 hover:text-[#778DA9]"
+              className="text-xl duration-500 text-[#778DA9]/40 hover:text-[#778DA9]"
             >
               {item.name}
             </Link>
@@ -39,7 +39,7 @@ export default function Home() {
         alt="Picture of the author"
       />
       <div className="my-16 text-justify animate-fade-in w-6/12">
-        <p className="text-xl text-zinc-400">
+        <p className="text-xm text-zinc-400">
           Olá! Me chamo Israel Felipe Ribeiro do Prado, criador do perfil Farsax e tenho 20 anos. Comecei minha jornada no design 2 anos atrás e desde então venho trabalhando nisso, desenvolvendo minhas habilidades e criando projetos que vinculam criatividade e profissionalismo.
           Acredito que o design é uma poderosa forma de comunicação. sinta-se à vontade para explorar meu portfólio e entrar em contato.
         </p>
