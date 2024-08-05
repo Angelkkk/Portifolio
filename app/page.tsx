@@ -24,18 +24,18 @@ export default function Home() {
         </ul>
       </nav>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-[#E0E1DD] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
+      <h1 className="py-3.5 px-0.5 z-10 text-3xl text-transparent duration-1000 bg-[#E0E1DD] cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
         Farsax
       </h1>
-      <h1 className="pb-8 px-0.5 z-10 text-2xl text-transparent duration-1000 bg-[#778DA9] cursor-default animate-title font-display sm:text-4xl md:text-4xl whitespace-nowrap bg-clip-text">
+      <h1 className="pb-8 px-0.5 z-10 text-xl text-transparent duration-1000 bg-[#778DA9] cursor-default animate-title font-display sm:text-4xl md:text-4xl whitespace-nowrap bg-clip-text">
         designer gráfico
       </h1>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Image
         className="animate-fade-in py-0 px-0.5 z-10"
         src="/Logo.png"
-        width={200}
-        height={200}
+        width={250}
+        height={250}
         alt="Picture of the author"
       />
       <div className="my-16 text-justify animate-fade-in w-6/12">
