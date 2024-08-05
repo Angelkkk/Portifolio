@@ -38,7 +38,7 @@ export default function RootLayout({
       >
       <Particles
         className="absolute inset-0 -z-50 animate-fade-in" 
-        quantity={1000}
+        quantity={500}
       />
         {children}
       </body>
