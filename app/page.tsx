@@ -44,7 +44,7 @@ export default function Home() {
         />
         <div className="my-8 md:my-16 animate-fade-in w-full md:w-6/12 px-4 md:px-0">
           <p className="text-sm md:text-base text-zinc-400">
-          OOlá! Me chamo Israel Felipe Ribeiro do Prado, criador do perfil Farsax e tenho 20 anos. Comecei minha jornada no design, fazendo uso do pacote Adobe, há 2 anos atrás. Desde então venho trabalhando, desenvolvendo minhas habilidades e criando projetos que vinculam criatividade e profissionalismo. Sinta-se à vontade para explorar meu portfólio e entrar em contato.
+          Olá! Me chamo Israel Felipe Ribeiro do Prado, criador do perfil Farsax e tenho 20 anos. Comecei minha jornada no design, fazendo uso do pacote Adobe, há 2 anos atrás. Desde então venho trabalhando, desenvolvendo minhas habilidades e criando projetos que vinculam criatividade e profissionalismo. Sinta-se à vontade para explorar meu portfólio e entrar em contato.
           </p>
         </div>
       </div>
